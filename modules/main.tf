@@ -5,3 +5,7 @@ locals {
   initiative_name = trimsuffix(var.initiative_name, ".initiative")
 
 }
+
+output "pa" {
+  value = local.initiative_name
+}
