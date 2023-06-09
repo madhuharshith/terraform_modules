@@ -1,6 +1,10 @@
 module "folder" {
     source = "./modules"
-    filename = "${path.module}/test1.txt"
+    filename = var.filename
     content = "Hello Madhu"
   
+}
+    
+variable "filename" {
+    type = string
 }
