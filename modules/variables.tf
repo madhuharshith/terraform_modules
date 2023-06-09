@@ -1,8 +1,5 @@
-variable "initiative_name" {
+variable "content" {
     type = string
-  
-}
-variable "val" {
-    type = string
+    
   
 }
