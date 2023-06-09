@@ -1,5 +1,9 @@
 resource "local_file" "test" {
-    filename = var.filename
+    filename = "${local.path}/${var.filename}"
     content = var.content
   
+}
+
+locals {
+  path = var.path
 }

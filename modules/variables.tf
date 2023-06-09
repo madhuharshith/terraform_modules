@@ -6,3 +6,7 @@ variable "content" {
 variable "filename" {
     type = string
 }
+
+variable "path" {
+  type = string
+}
