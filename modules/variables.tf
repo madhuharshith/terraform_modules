@@ -3,3 +3,6 @@ variable "content" {
     
   
 }
+variable "filename" {
+    type = string
+}
