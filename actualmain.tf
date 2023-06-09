@@ -3,7 +3,3 @@ module "folder" {
     content = "Hello Madhu"
   
 }
-    
-variable "filename" {
-    type = string
-}
