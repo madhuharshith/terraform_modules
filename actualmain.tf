@@ -1,6 +1,6 @@
 module "folder" {
     source = "./modules"
-    filename = var.filename
+    filename = "${path.module}/har.txt"
     content = "Hello Madhu"
   
 }
